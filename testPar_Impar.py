@@ -9,7 +9,7 @@ def test_sumar_par():
     listaNum = par_Impar([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16])
     assert listaNum.sumarPar() == 72
 
-def test_suma_ompares():
+def test_suma_impares():
     listaNum = par_Impar([1,2,3,4,5,6,7,8,9,10,12,13,14,15,16])
     assert listaNum.sumaImpares() == 53
 
